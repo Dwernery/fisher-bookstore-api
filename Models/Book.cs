@@ -10,5 +10,10 @@ namespace Fisher.Bookstore.Models
 
          public double Price { get; set; }
 
+         public void ApplyMemberDiscount()
+         {
+             Price = Price * .90;
+         }
+
     }
 }
